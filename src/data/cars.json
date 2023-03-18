@@ -1,0 +1,780 @@
+{
+    "id": 1,
+    "model": "STS-V",
+    "price": 195966,
+    "year": 2008,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/127x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/159x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/133x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/169x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Larkin-Herzog",
+        "address": "2441 Becker Court"
+    },
+    "energyEngine": "Diesel",
+    "power": 265,
+    "acceleration": 1.1,
+    "transmission": "Automatic",
+    "consumption": 11.0,
+    "carbonEmission": 163,
+    "energyLabel": "C"
+},
+{
+    "id": 2,
+    "model": "Lancer",
+    "price": 124263,
+    "year": 2010,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/199x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/241x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/161x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/105x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/191x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/167x100.png/dddddd/000000"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Hammes-Schmitt",
+        "address": "7 Morning Alley"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 152,
+    "acceleration": 6.4,
+    "transmission": "Manual",
+    "consumption": 8.5,
+    "carbonEmission": 212,
+    "energyLabel": "F"
+},
+{
+    "id": 3,
+    "model": "Silverado 3500",
+    "price": 73674,
+    "year": 2009,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/213x100.png/5fa2dd/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/234x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/116x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/146x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/233x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/155x100.png/ff4444/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Olson-Purdy",
+        "address": "2643 Springview Trail"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 172,
+    "acceleration": 9.1,
+    "transmission": "Automatic",
+    "consumption": 2.3,
+    "carbonEmission": 228,
+    "energyLabel": "B"
+},
+{
+    "id": 4,
+    "model": "CX-9",
+    "price": 49123,
+    "year": 2009,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/103x100.png/5fa2dd/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/203x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/181x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/167x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/218x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Wilkinson-Robel",
+        "address": "8422 Anderson Alley"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 200,
+    "acceleration": 6.6,
+    "transmission": "Automatic",
+    "consumption": 14.1,
+    "carbonEmission": 229,
+    "energyLabel": "F"
+},
+{
+    "id": 5,
+    "model": "F250",
+    "price": 54197,
+    "year": 2004,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/210x100.png/dddddd/000000"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/130x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/186x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/238x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/240x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/159x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Hackett-Weber",
+        "address": "477 Quincy Court"
+    },
+    "energyEngine": "Diesel",
+    "power": 171,
+    "acceleration": 1.2,
+    "transmission": "Manual",
+    "consumption": 19.6,
+    "carbonEmission": 232,
+    "energyLabel": "A"
+},
+{
+    "id": 6,
+    "model": "F350",
+    "price": 82350,
+    "year": 1995,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/106x100.png/dddddd/000000"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/224x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/250x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/236x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/198x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/209x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Fay-Hodkiewicz",
+        "address": "94855 Bobwhite Way"
+    },
+    "energyEngine": "Diesel",
+    "power": 222,
+    "acceleration": 3.7,
+    "transmission": "Manual",
+    "consumption": 17.8,
+    "carbonEmission": 234,
+    "energyLabel": "D"
+},
+{
+    "id": 7,
+    "model": "Expedition EL",
+    "price": 136324,
+    "year": 2008,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/150x100.png/5fa2dd/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/200x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/174x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/125x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/160x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/209x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Cummerata LLC",
+        "address": "504 Sundown Way"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 211,
+    "acceleration": 5.7,
+    "transmission": "Manual",
+    "consumption": 4.2,
+    "carbonEmission": 226,
+    "energyLabel": "C"
+},
+{
+    "id": 8,
+    "model": "Cherokee",
+    "price": 37148,
+    "year": 1992,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/198x100.png/cc0000/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/242x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/129x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/234x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/150x100.png/ff4444/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Rowe, Toy and Flatley",
+        "address": "32 Lotheville Point"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 183,
+    "acceleration": 4.5,
+    "transmission": "Automatic",
+    "consumption": 18.5,
+    "carbonEmission": 208,
+    "energyLabel": "D"
+},
+{
+    "id": 9,
+    "model": "Trans Sport",
+    "price": 190764,
+    "year": 1997,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/206x100.png/cc0000/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/146x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/205x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/159x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/138x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/149x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Leannon Inc",
+        "address": "6997 Pond Place"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 196,
+    "acceleration": 4.7,
+    "transmission": "Automatic",
+    "consumption": 18.0,
+    "carbonEmission": 143,
+    "energyLabel": "D"
+},
+{
+    "id": 10,
+    "model": "Cayman",
+    "price": 191642,
+    "year": 2012,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/193x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/116x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/151x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/120x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/135x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Feest Inc",
+        "address": "250 Michigan Park"
+    },
+    "energyEngine": "Diesel",
+    "power": 118,
+    "acceleration": 2.4,
+    "transmission": "Manual",
+    "consumption": 13.0,
+    "carbonEmission": 133,
+    "energyLabel": "C"
+},
+{
+    "id": 11,
+    "model": "323",
+    "price": 116319,
+    "year": 1995,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/176x100.png/5fa2dd/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/152x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/159x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/186x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/149x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Olson and Sons",
+        "address": "1170 Parkside Lane"
+    },
+    "energyEngine": "Diesel",
+    "power": 150,
+    "acceleration": 9.0,
+    "transmission": "Manual",
+    "consumption": 12.8,
+    "carbonEmission": 102,
+    "energyLabel": "A"
+},
+{
+    "id": 12,
+    "model": "Silverado 3500",
+    "price": 152005,
+    "year": 2010,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/104x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/174x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/241x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/175x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/248x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Bayer-Kirlin",
+        "address": "604 Heffernan Avenue"
+    },
+    "energyEngine": "Diesel",
+    "power": 107,
+    "acceleration": 1.6,
+    "transmission": "Automatic",
+    "consumption": 12.3,
+    "carbonEmission": 240,
+    "energyLabel": "D"
+},
+{
+    "id": 13,
+    "model": "Seville",
+    "price": 25295,
+    "year": 2002,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/181x100.png/cc0000/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/140x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/140x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/131x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/204x100.png/dddddd/000000"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Tillman Inc",
+        "address": "30044 Texas Pass"
+    },
+    "energyEngine": "Diesel",
+    "power": 225,
+    "acceleration": 10.0,
+    "transmission": "Automatic",
+    "consumption": 1.8,
+    "carbonEmission": 224,
+    "energyLabel": "F"
+},
+{
+    "id": 14,
+    "model": "Suburban 2500",
+    "price": 74252,
+    "year": 1992,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/191x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/163x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/109x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/132x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/148x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Bergstrom, Friesen and Halvorson",
+        "address": "4432 Dwight Way"
+    },
+    "energyEngine": "Diesel",
+    "power": 244,
+    "acceleration": 8.0,
+    "transmission": "Automatic",
+    "consumption": 13.5,
+    "carbonEmission": 146,
+    "energyLabel": "E"
+},
+{
+    "id": 15,
+    "model": "Mini Cooper",
+    "price": 110590,
+    "year": 1961,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/146x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/235x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/186x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/174x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/158x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/171x100.png/ff4444/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Dibbert and Sons",
+        "address": "50 Michigan Street"
+    },
+    "energyEngine": "Diesel",
+    "power": 218,
+    "acceleration": 4.3,
+    "transmission": "Manual",
+    "consumption": 9.9,
+    "carbonEmission": 208,
+    "energyLabel": "E"
+},
+{
+    "id": 16,
+    "model": "NSX",
+    "price": 83974,
+    "year": 1998,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/141x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/204x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/235x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/106x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/120x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/118x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Hoppe, Crona and Beahan",
+        "address": "5 Superior Center"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 191,
+    "acceleration": 3.6,
+    "transmission": "Manual",
+    "consumption": 12.2,
+    "carbonEmission": 143,
+    "energyLabel": "E"
+},
+{
+    "id": 17,
+    "model": "LX",
+    "price": 59990,
+    "year": 1999,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/169x100.png/ff4444/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/231x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/154x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/135x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/135x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/162x100.png/dddddd/000000"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Bahringer, Wiza and Howe",
+        "address": "367 Larry Terrace"
+    },
+    "energyEngine": "Diesel",
+    "power": 260,
+    "acceleration": 1.8,
+    "transmission": "Automatic",
+    "consumption": 8.6,
+    "carbonEmission": 192,
+    "energyLabel": "E"
+},
+{
+    "id": 18,
+    "model": "Canyon",
+    "price": 96247,
+    "year": 2010,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/121x100.png/cc0000/ffffff"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/175x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/139x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/182x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/115x100.png/dddddd/000000"
+            },
+            {
+                "path": "http://dummyimage.com/156x100.png/dddddd/000000"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Lynch Inc",
+        "address": "47 Roth Trail"
+    },
+    "energyEngine": "Diesel",
+    "power": 161,
+    "acceleration": 7.7,
+    "transmission": "Automatic",
+    "consumption": 14.0,
+    "carbonEmission": 239,
+    "energyLabel": "D"
+},
+{
+    "id": 19,
+    "model": "Land Cruiser",
+    "price": 129541,
+    "year": 1998,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/110x100.png/dddddd/000000"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/155x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/154x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/214x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/211x100.png/ff4444/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Bernhard and Sons",
+        "address": "33247 Dorton Plaza"
+    },
+    "energyEngine": "Diesel",
+    "power": 243,
+    "acceleration": 7.9,
+    "transmission": "Automatic",
+    "consumption": 5.9,
+    "carbonEmission": 177,
+    "energyLabel": "B"
+},
+{
+    "id": 20,
+    "model": "Tribeca",
+    "price": 152439,
+    "year": 2012,
+    "media": {
+        "video": {
+            "path": "http://dummyimage.com/229x100.png/dddddd/000000"
+        },
+        "images": [
+            {
+                "path": "http://dummyimage.com/188x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/145x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/152x100.png/5fa2dd/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/176x100.png/cc0000/ffffff"
+            },
+            {
+                "path": "http://dummyimage.com/195x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    "dealer": {
+        "name": "Beer, Lockman and Langosh",
+        "address": "79 Riverside Trail"
+    },
+    "energyEngine": "Flex-fuel",
+    "power": 216,
+    "acceleration": 9.4,
+    "transmission": "Manual",
+    "consumption": 10.9,
+    "carbonEmission": 105,
+    "energyLabel": "C"
+}
