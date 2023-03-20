@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let specs: { title: string; value: string }[] = [];
+	export let specs: { title: string; value: number | string }[];
 </script>
 
 <div>
