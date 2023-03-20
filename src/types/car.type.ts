@@ -3,17 +3,31 @@ export interface Car {
 	model: string;
 	price: number;
 	year: number;
-	media: string[];
-	videoPath: string;
-	dealer: {
-		name: string;
-		address: string;
-	};
+	media: Media;
+	dealer: Dealer;
 	energyEngine: string;
-	power: string;
-	acceleration: string;
+	power: number;
+	acceleration: number;
 	transmission: string;
-	consumption: string;
-	carbonEmission: string;
+	consumption: number;
+	carbonEmission: number;
 	energyLabel: string;
+}
+
+export interface Dealer {
+	name: string;
+	address: string;
+}
+
+export interface Media {
+	video: Video;
+	images: Images[];
+}
+
+export interface Video {
+	path: string;
+}
+
+export interface Images {
+	path: string;
 }
