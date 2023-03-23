@@ -24,7 +24,7 @@
 					<a class="hover:text-white" href="/">Models</a>
 				</li>
 				<li>
-					<a class="hover:text-white" href="/">Build Your Onw</a>
+					<a class="hover:text-white" href="/">Build Your Own</a>
 				</li>
 				<li>
 					<a class="hover:text-white" href="/">Shopping</a>
