@@ -11,8 +11,15 @@ module.exports = {
 			},
 			colors: {
 				"chinese-silver": "#cacaca",
+				cultured: "#f6f6f6",
 				"honolulu-blue": "#0066b1",
 				"raisin-black": "#221f1f"
+			},
+			strokeWidth: {
+				4: "4px"
+			},
+			textUnderlineOffset: {
+				6: "6px"
 			}
 		}
 	},
