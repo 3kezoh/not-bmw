@@ -6,7 +6,7 @@
 
 <ResponsivePicture
 	alt="A BMW Z4"
-	class="md:object-cover md:w-screen md:h-screen md:object-center"
+	class="max-h-[70dvh] object-cover md:max-h-d-screen md:w-screen md:h-d-screen md:object-center"
 	{desktopMetadata}
 	media="(max-width: 768px)"
 	{mobileMetadata}

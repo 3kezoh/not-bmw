@@ -15,6 +15,12 @@ module.exports = {
 				"honolulu-blue": "#0066b1",
 				"raisin-black": "#221f1f"
 			},
+			height: {
+				"d-screen": "100dvh"
+			},
+            maxHeight: {
+                "d-screen": "100dvh"
+            },
 			strokeWidth: {
 				4: "4px"
 			},

@@ -5,7 +5,7 @@
 	import Cars from "../components/home/Cars.svelte";
 </script>
 
-<div class="snap-y snap-mandatory h-screen overflow-scroll">
+<div class="snap-y snap-mandatory h-d-screen overflow-scroll">
 	<Cars />
 	<div class="snap-start snap-always">
 		<Designs />

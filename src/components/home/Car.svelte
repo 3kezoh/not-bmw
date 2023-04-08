@@ -3,7 +3,7 @@
 	export let model: string;
 </script>
 
-<article class="font-bold snap-start snap-always h-screen grid grid-rows-[auto_1fr] relative">
+<article class="font-bold snap-start snap-always h-d-screen grid grid-rows-[auto_1fr] relative">
 	<div class="relative h-fit">
 		<div
 			class="absolute left-1/2 -translate-x-1/2 top-28 md:top-[20%] drop-shadow-nav text-white p-3"

@@ -6,7 +6,7 @@
 
 <ResponsivePicture
 	alt="A BMW iX"
-	class="md:object-cover md:w-screen md:h-screen md:object-bottom"
+	class="max-h-[70dvh] object-cover md:max-h-d-screen md:w-screen md:h-d-screen md:object-bottom"
 	{desktopMetadata}
 	isLazyLoaded={false}
 	media="(max-width: 768px)"
