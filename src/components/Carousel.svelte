@@ -31,4 +31,19 @@
 		object-fit: cover;
 		margin-right: 10px;
 	}
+
+	.gallery::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+		background-color: #f2f2f2;
+	}
+
+	.gallery::-webkit-scrollbar-thumb {
+		background-color: #0066b1;
+		border-radius: 10px;
+	}
+
+	.gallery::-webkit-scrollbar-thumb:hover {
+		background-color: #666666;
+	}
 </style>
