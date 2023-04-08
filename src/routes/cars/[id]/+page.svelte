@@ -2,7 +2,7 @@
 	import PrimaryDescription from "../../../components/primaryDescription.svelte";
 	import TechnicalSpecList from "../../../components/technicalSpecList.svelte";
 	import type { Car } from "../../../types/car.type";
-    import Carousel from "../../../components/SvelteCarousel.svelte";
+	import Carousel from "../../../components/Carousel.svelte";
 
 	export let data: { car?: Car } = {};
 
@@ -28,10 +28,10 @@
 		price={car.price}
 		dealerName={car.dealer.name}
 	/>
-    <Carousel images={car.media.images} />
+	<Carousel images={car.media.images} />
 
-    <h1>Technical Specifications</h1>
-    <TechnicalSpecList specs={technicalSpecs} />
+	<h1>Technical Specifications</h1>
+	<TechnicalSpecList specs={technicalSpecs} />
 {/if}
 
 <h1>From Outside</h1>
