@@ -11,8 +11,22 @@ module.exports = {
 			},
 			colors: {
 				"chinese-silver": "#cacaca",
+				cultured: "#f6f6f6",
 				"honolulu-blue": "#0066b1",
+				nickel: "#727171",
 				"raisin-black": "#221f1f"
+			},
+			height: {
+				"d-screen": "100dvh"
+			},
+			maxHeight: {
+				"d-screen": "100dvh"
+			},
+			strokeWidth: {
+				4: "4px"
+			},
+			textUnderlineOffset: {
+				6: "6px"
 			}
 		}
 	},

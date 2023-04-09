@@ -1,10 +1,16 @@
 <script>
 	import "../app.css";
+	import { page } from "$app/stores";
 </script>
+
+<svelte:head>
+	<title>{$page.data.title}</title>
+	<meta name="description" content={$page.data.description} />
+</svelte:head>
 
 <header>
 	<nav
-		class="bg-nav text-chinese-silver tracking-[0.25px] font-bold grid grid-flow-col items-center h-16 lg:h-24 px-4 lg:px-14"
+		class="z-10 fixed w-screen bg-nav text-chinese-silver tracking-[0.25px] font-bold grid grid-flow-col items-center h-16 lg:h-24 px-4 lg:px-14"
 	>
 		<div class="flex gap-4 lg:gap-10 items-center">
 			<a href="/">
@@ -24,7 +30,7 @@
 					<a class="hover:text-white" href="/">Models</a>
 				</li>
 				<li>
-					<a class="hover:text-white" href="/">Build Your Onw</a>
+					<a class="hover:text-white" href="/">Build Your Own</a>
 				</li>
 				<li>
 					<a class="hover:text-white" href="/">Shopping</a>

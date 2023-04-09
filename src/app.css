@@ -15,6 +15,8 @@
 	}
 
 	html {
+		@apply text-raisin-black;
+
 		font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont,
 			serif;
 	}
