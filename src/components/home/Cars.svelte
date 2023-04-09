@@ -6,7 +6,7 @@
 	import BmwZ4 from "./pictures/BmwZ4.svelte";
 </script>
 
-<Car heading={"ELECTRIC<br />INNOVATION"} model="iX">
+<Car heading={"ELECTRIC<br>INNOVATION"} model="iX">
 	<BmwIx />
 	<svg
 		viewBox="0 0 24 24"
@@ -15,12 +15,12 @@
 		<path d="M6 9l6 6 6-6" />
 	</svg>
 </Car>
-<Car heading={"POWERFUL<br />PERFORMANCE"} model="XM">
+<Car heading={"POWERFUL<br>PERFORMANCE"} model="XM">
 	<BmwXm />
 </Car>
-<Car heading={"NEXT-LEVEL<br />LUXURY"} model="X7">
+<Car heading={"NEXT-LEVEL<br>LUXURY"} model="X7">
 	<BmwX7 />
 </Car>
-<Car heading={"PUREBRED<br />ROADSTER"} model="Z4">
+<Car heading={"PUREBRED<br>ROADSTER"} model="Z4">
 	<BmwZ4 />
 </Car>
