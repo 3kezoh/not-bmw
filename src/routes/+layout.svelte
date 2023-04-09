@@ -53,7 +53,7 @@
 						d="M1.5 0C.671 0 0 .683 0 1.526c0 .493.312 1.158.572 1.69L1.5 5l.929-1.784C2.688 2.684 3 2.019 3 1.526 3 .683 2.329 0 1.5 0zm0 2.339c-.434 0-.786-.36-.786-.804S1.066.731 1.5.731s.786.36.786.804-.352.804-.786.804z"
 					/>
 				</svg>
-				<div class="drop-shadow-nav">Choose your local BMW Center</div>
+				<span class="drop-shadow-nav">Choose your local BMW Center</span>
 			</button>
 			<button class="hidden group lg:flex gap-1 hover:text-white">
 				<svg
@@ -64,7 +64,7 @@
 						d="M3.643 7.5c.69.473 1.494.75 2.357.75.863 0 1.667-.277 2.357-.75H9a3 3 0 0 1 3 3V12H0v-1.5a3 3 0 0 1 3-3zM6 0c1.45 0 2.625 1.343 2.625 3S7.45 6 6 6 3.375 4.657 3.375 3 4.55 0 6 0z"
 					/>
 				</svg>
-				<div class="drop-shadow-nav">My BMW</div>
+				<span class="drop-shadow-nav">My BMW</span>
 			</button>
 			<button
 				class="group hidden lg:flex justify-center items-center rounded-full lg:w-9 lg:h-9 bg-raisin-black/80 hover:bg-white"
