@@ -3,21 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-family: BMWTypeNext;
-		src: url(/fonts/BMWTypeNextLatin-Light.woff2) format("woff2");
-	}
-
-	@font-face {
-		font-family: BMWTypeNext;
-		src: url(/fonts/BMWTypeNextLatin-Bold.woff2) format("woff2");
-		font-weight: bold;
-	}
-
 	html {
 		@apply text-raisin-black;
-
-		font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont,
-			serif;
-	}
+    }
 }
