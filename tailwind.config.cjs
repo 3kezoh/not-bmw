@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ["./src/**/*.{html,js,svelte,ts}"],
@@ -16,6 +18,9 @@ module.exports = {
 				nickel: "#727171",
 				"raisin-black": "#221f1f"
 			},
+            fontFamily: {
+                "sans": ["Helvetica Neue", ...defaultTheme.fontFamily.sans],
+            },
 			height: {
 				"d-screen": "100dvh"
 			},
