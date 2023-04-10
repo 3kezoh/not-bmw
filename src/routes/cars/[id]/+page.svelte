@@ -2,6 +2,7 @@
 	import PrimaryDescription from "../../../components/primaryDescription.svelte";
 	import TechnicalSpecList from "../../../components/technicalSpecList.svelte";
 	import type { Car } from "../../../types/car.type";
+	import RadioButton from "../../../components/products/RadioButton.svelte";
 
 	export let data: { car?: Car } = {};
 
@@ -28,14 +29,18 @@
 		price={car.price}
 		dealerName={car.dealer.name}
 	/>
-	<div></div>
-	<div class="col-span-2">
-		<TechnicalSpecList specs={technicalSpecs} />
-	</div>
+	<RadioButton
+	acceleration={car.acceleration}
+	price={car.price}
+	/>
 
 	<div class="col-span-2">
-		<div class="font-bold text-2xl text-center">Vidéo</div>
-	</div>
-	
+        <TechnicalSpecList specs={technicalSpecs} />
+    </div>
+
+    <div class="col-span-2">
+        <div class="font-bold text-2xl text-center">Vidéo</div>
+    </div>
+
 {/if}
 </div> 
