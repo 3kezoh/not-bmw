@@ -35,7 +35,7 @@
 	<TechnicalSpecList specs={technicalSpecs} />
 
 	<Subtitles title="{car.acceleration} sec" subtitle="0-60 MPH" />
-	<Subtitles title="{car.acceleration} sec" subtitle={undefined}/>
+	<Subtitles title="{car.acceleration} sec" subtitle={undefined} />
 {/if}
 
 <h1>From Outside</h1>
