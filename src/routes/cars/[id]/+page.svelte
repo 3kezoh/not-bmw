@@ -1,6 +1,7 @@
 <script lang="ts">
 	import PrimaryDescription from "../../../components/primaryDescription.svelte";
 	import TechnicalSpecList from "../../../components/technicalSpecList.svelte";
+	import Subtitles from "../../../components/products/Subtitles.svelte";
 	import type { Car } from "../../../types/car.type";
 	import Carousel from "../../../components/Carousel.svelte";
 
@@ -32,6 +33,9 @@
 
 	<h1>Technical Specifications</h1>
 	<TechnicalSpecList specs={technicalSpecs} />
+
+	<Subtitles title="{car.acceleration} sec" subtitle="0-60 MPH" />
+	<Subtitles title="{car.acceleration} sec" subtitle={undefined}/>
 {/if}
 
 <h1>From Outside</h1>
