@@ -3,11 +3,12 @@ export interface Car {
 	model: string;
 	price: number;
 	year: number;
+	drive: string;
+    acceleration: number;
 	media: Media;
 	dealer: Dealer;
 	energyEngine: string;
 	power: number;
-	acceleration: number;
 	transmission: string;
 	consumption: number;
 	carbonEmission: number;

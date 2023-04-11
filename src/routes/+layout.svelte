@@ -10,7 +10,7 @@
 
 <header>
 	<nav
-		class="z-10 fixed w-screen bg-nav text-chinese-silver tracking-[0.25px] font-bold grid grid-flow-col items-center h-16 lg:h-24 px-4 lg:px-14"
+		class="top-0 z-10 fixed w-screen bg-nav text-chinese-silver tracking-[0.25px] font-bold grid grid-flow-col items-center h-16 lg:h-24 px-4 lg:px-14"
 	>
 		<div class="flex gap-4 lg:gap-10 items-center">
 			<a href="/" aria-label="Go to the home page">

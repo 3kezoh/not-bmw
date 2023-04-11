@@ -3,9 +3,11 @@
 	export let subtitle: string | undefined;
 </script>
 
-<div class="p-2 shadow-lg">
+<div class="p-2 text-center">
 	<h3 class="font-semibold text-xl">{title}</h3>
 	{#if subtitle}
-		<h6 class="text-sm">{subtitle}</h6>
-	{/if}
+		<div class="text-sm">{subtitle}</div>
+    {:else}
+        <div class="text-sm">-</div>
+    {/if}
 </div>

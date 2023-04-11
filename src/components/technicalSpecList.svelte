@@ -1,12 +1,12 @@
 <script lang="ts">
+	import Subtitles from "./products/Subtitles.svelte";
+
 	export let specs: { title: string; value: number | string }[];
 </script>
 
 <div>
+	<h1>Technical Specifications</h1>
 	{#each specs as spec}
-		<div>
-			<h3>{spec.title}</h3>
-			<p>{spec.value}</p>
-		</div>
+		<Subtitles title={spec.title} subtitle={spec.value.toString()}/>
 	{/each}
 </div>
