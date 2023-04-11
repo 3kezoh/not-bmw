@@ -2,7 +2,6 @@
 	import PrimaryDescription from "../../../components/primaryDescription.svelte";
 	import TechnicalSpecList from "../../../components/technicalSpecList.svelte";
 	import type { Car } from "../../../types/car.type";
-	import Carousel from "../../../components/Carousel.svelte";
 
 	export let data: { car?: Car } = {};
 
@@ -20,18 +19,16 @@
 		: [];
 </script>
 
-{#if car}
-	<h1>car n°{car.id}</h1>
+<div class="mt-16 lg:mt-24 grid grid-cols-2 gap-2 p-10">
+	{#if car}
 	<PrimaryDescription
 		model={car.model}
-		year={car.year}
+		drive={car.drive}
+		acceleration={car.acceleration}
+		transmission={car.transmission}
 		price={car.price}
 		dealerName={car.dealer.name}
 	/>
-	<Carousel images={car.media.images} />
-
-	<h1>Technical Specifications</h1>
 	<TechnicalSpecList specs={technicalSpecs} />
 {/if}
-
-<h1>From Outside</h1>
+</div> 

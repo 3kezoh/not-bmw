@@ -1,16 +1,18 @@
 [
     {
         "id": 1,
-        "model": "B9 Tribeca",
+        "model": "BMW IX",
         "price": 78186,
         "year": 2007,
+        "drive": "AWD",
+        "acceleration": 1.9,
         "media": {
             "video": {
                 "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
             },
             "images": [
                 {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
                 },
                 {
                     "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
@@ -26,8 +28,7 @@
         },
         "energyEngine": "Diesel",
         "power": 264,
-        "acceleration": 1.9,
-        "transmission": "Manual",
+        "transmission": "Automatic",
         "consumption": 19.0,
         "carbonEmission": 127,
         "energyLabel": "B"
@@ -37,6 +38,8 @@
         "model": "Bronco",
         "price": 177548,
         "year": 1990,
+        "drive": "AWD",
+        "acceleration": 1.9,
         "media": {
             "video": {
                 "path": "http://dummyimage.com/400x250.png/dddddd/000000"
@@ -59,7 +62,6 @@
         },
         "energyEngine": "Flex-fuel",
         "power": 199,
-        "acceleration": 5.7,
         "transmission": "Manual",
         "consumption": 1.7,
         "carbonEmission": 190,
@@ -70,6 +72,8 @@
         "model": "MR2",
         "price": 107174,
         "year": 2003,
+        "drive": "AWD",
+        "acceleration": 1.9,
         "media": {
             "video": {
                 "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
@@ -92,7 +96,6 @@
         },
         "energyEngine": "Flex-fuel",
         "power": 176,
-        "acceleration": 4.3,
         "transmission": "Manual",
         "consumption": 1.6,
         "carbonEmission": 192,
@@ -103,6 +106,8 @@
         "model": "Escalade",
         "price": 161968,
         "year": 2010,
+        "drive": "AWD",
+        "acceleration": 1.9,
         "media": {
             "video": {
                 "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
@@ -125,538 +130,9 @@
         },
         "energyEngine": "Diesel",
         "power": 186,
-        "acceleration": 6.8,
         "transmission": "Manual",
         "consumption": 11.2,
         "carbonEmission": 122,
         "energyLabel": "C"
-    },
-    {
-        "id": 5,
-        "model": "Savana 3500",
-        "price": 156263,
-        "year": 2010,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Davis Group",
-            "address": "6 Susan Pass"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 141,
-        "acceleration": 5.4,
-        "transmission": "Manual",
-        "consumption": 18.6,
-        "carbonEmission": 161,
-        "energyLabel": "E"
-    },
-    {
-        "id": 6,
-        "model": "Riviera",
-        "price": 127474,
-        "year": 1990,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Hegmann-Romaguera",
-            "address": "13 Raven Terrace"
-        },
-        "energyEngine": "Diesel",
-        "power": 253,
-        "acceleration": 6.8,
-        "transmission": "Automatic",
-        "consumption": 16.4,
-        "carbonEmission": 236,
-        "energyLabel": "B"
-    },
-    {
-        "id": 7,
-        "model": "Caravan",
-        "price": 42477,
-        "year": 1998,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Dickinson LLC",
-            "address": "116 Manufacturers Road"
-        },
-        "energyEngine": "Diesel",
-        "power": 237,
-        "acceleration": 7.0,
-        "transmission": "Manual",
-        "consumption": 11.0,
-        "carbonEmission": 188,
-        "energyLabel": "F"
-    },
-    {
-        "id": 8,
-        "model": "E-Series",
-        "price": 180876,
-        "year": 2012,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Hyatt, Rutherford and Shields",
-            "address": "28 Bay Road"
-        },
-        "energyEngine": "Diesel",
-        "power": 250,
-        "acceleration": 5.3,
-        "transmission": "Automatic",
-        "consumption": 14.4,
-        "carbonEmission": 182,
-        "energyLabel": "C"
-    },
-    {
-        "id": 9,
-        "model": "F150",
-        "price": 107683,
-        "year": 2006,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Prohaska LLC",
-            "address": "14801 Ludington Hill"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 139,
-        "acceleration": 1.6,
-        "transmission": "Manual",
-        "consumption": 19.9,
-        "carbonEmission": 246,
-        "energyLabel": "E"
-    },
-    {
-        "id": 10,
-        "model": "XJ",
-        "price": 126495,
-        "year": 2006,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Reichel-Stracke",
-            "address": "7 Superior Trail"
-        },
-        "energyEngine": "Diesel",
-        "power": 102,
-        "acceleration": 3.1,
-        "transmission": "Automatic",
-        "consumption": 18.1,
-        "carbonEmission": 133,
-        "energyLabel": "C"
-    },
-    {
-        "id": 11,
-        "model": "Regal",
-        "price": 168556,
-        "year": 1986,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Lind, Zboncak and Schuster",
-            "address": "9304 Grayhawk Trail"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 232,
-        "acceleration": 7.8,
-        "transmission": "Automatic",
-        "consumption": 3.1,
-        "carbonEmission": 94,
-        "energyLabel": "F"
-    },
-    {
-        "id": 12,
-        "model": "911",
-        "price": 46879,
-        "year": 1994,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Considine-Kuhn",
-            "address": "4 Longview Park"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 189,
-        "acceleration": 5.0,
-        "transmission": "Manual",
-        "consumption": 6.4,
-        "carbonEmission": 94,
-        "energyLabel": "E"
-    },
-    {
-        "id": 13,
-        "model": "Electra",
-        "price": 34860,
-        "year": 1986,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Lynch-Hilpert",
-            "address": "78984 Starling Parkway"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 207,
-        "acceleration": 8.4,
-        "transmission": "Automatic",
-        "consumption": 6.3,
-        "carbonEmission": 192,
-        "energyLabel": "F"
-    },
-    {
-        "id": 14,
-        "model": "Lancer Evolution",
-        "price": 65431,
-        "year": 2010,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "DuBuque, Spencer and Sauer",
-            "address": "931 Nobel Way"
-        },
-        "energyEngine": "Diesel",
-        "power": 293,
-        "acceleration": 5.4,
-        "transmission": "Manual",
-        "consumption": 12.2,
-        "carbonEmission": 139,
-        "energyLabel": "D"
-    },
-    {
-        "id": 15,
-        "model": "G-Series G20",
-        "price": 113441,
-        "year": 1992,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Cole LLC",
-            "address": "82745 Kennedy Circle"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 120,
-        "acceleration": 9.0,
-        "transmission": "Automatic",
-        "consumption": 4.9,
-        "carbonEmission": 121,
-        "energyLabel": "E"
-    },
-    {
-        "id": 16,
-        "model": "Mark VIII",
-        "price": 40778,
-        "year": 1998,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Fritsch-Boehm",
-            "address": "296 Esch Trail"
-        },
-        "energyEngine": "Diesel",
-        "power": 223,
-        "acceleration": 1.8,
-        "transmission": "Automatic",
-        "consumption": 10.0,
-        "carbonEmission": 112,
-        "energyLabel": "F"
-    },
-    {
-        "id": 17,
-        "model": "Dakota",
-        "price": 137851,
-        "year": 1996,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Murphy, Cruickshank and McKenzie",
-            "address": "73250 Boyd Way"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 223,
-        "acceleration": 4.1,
-        "transmission": "Automatic",
-        "consumption": 18.9,
-        "carbonEmission": 119,
-        "energyLabel": "F"
-    },
-    {
-        "id": 18,
-        "model": "Ranger",
-        "price": 145967,
-        "year": 1994,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Rohan-Strosin",
-            "address": "42 Hallows Street"
-        },
-        "energyEngine": "Diesel",
-        "power": 245,
-        "acceleration": 8.5,
-        "transmission": "Manual",
-        "consumption": 5.9,
-        "carbonEmission": 120,
-        "energyLabel": "C"
-    },
-    {
-        "id": 19,
-        "model": "B-Series",
-        "price": 161848,
-        "year": 1987,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Greenfelder-Schuppe",
-            "address": "9656 Lukken Circle"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 183,
-        "acceleration": 1.5,
-        "transmission": "Automatic",
-        "consumption": 5.7,
-        "carbonEmission": 148,
-        "energyLabel": "B"
-    },
-    {
-        "id": 20,
-        "model": "Outlander",
-        "price": 32870,
-        "year": 2008,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Wisozk, Schuster and Auer",
-            "address": "7 Lerdahl Way"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 110,
-        "acceleration": 5.6,
-        "transmission": "Automatic",
-        "consumption": 6.7,
-        "carbonEmission": 244,
-        "energyLabel": "F"
     }
 ]
