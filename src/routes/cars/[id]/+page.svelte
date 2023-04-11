@@ -13,13 +13,12 @@
 				{ title: "Acceleration", value: car.acceleration },
 				{ title: "Transmission", value: car.transmission },
 				{ title: "Consumption", value: car.consumption },
-				{ title: "Carbon Emission", value: car.carbonEmission },
-				{ title: "Energy Label", value: car.energyLabel }
+				{ title: "Carbon Emission", value: car.carbonEmission }
 		  ]
 		: [];
 </script>
 
-<div class="mt-16 lg:mt-24 grid grid-cols-2 gap-2 p-10">
+<div class="mt-16 lg:mt-24 grid grid-cols-2 gap-2 gap-y-20 p-10">
 	{#if car}
 	<PrimaryDescription
 		model={car.model}
@@ -29,6 +28,14 @@
 		price={car.price}
 		dealerName={car.dealer.name}
 	/>
-	<TechnicalSpecList specs={technicalSpecs} />
+	<div></div>
+	<div class="col-span-2">
+		<TechnicalSpecList specs={technicalSpecs} />
+	</div>
+
+	<div class="col-span-2">
+		<div class="font-bold text-2xl text-center">Vidéo</div>
+	</div>
+	
 {/if}
 </div> 

@@ -30,8 +30,7 @@
         "power": 264,
         "transmission": "Automatic",
         "consumption": 19.0,
-        "carbonEmission": 127,
-        "energyLabel": "B"
+        "carbonEmission": 127
     },
     {
         "id": 2,
@@ -64,8 +63,7 @@
         "power": 199,
         "transmission": "Manual",
         "consumption": 1.7,
-        "carbonEmission": 190,
-        "energyLabel": "B"
+        "carbonEmission": 190
     },
     {
         "id": 3,
@@ -98,8 +96,7 @@
         "power": 176,
         "transmission": "Manual",
         "consumption": 1.6,
-        "carbonEmission": 192,
-        "energyLabel": "E"
+        "carbonEmission": 192
     },
     {
         "id": 4,
@@ -132,7 +129,6 @@
         "power": 186,
         "transmission": "Manual",
         "consumption": 11.2,
-        "carbonEmission": 122,
-        "energyLabel": "C"
+        "carbonEmission": 122
     }
 ]

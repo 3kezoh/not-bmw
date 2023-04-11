@@ -5,8 +5,10 @@
 </script>
 
 <div>
-	<h1>Technical Specifications</h1>
+	<div class="font-bold text-2xl pb-2 text-center">Technical Specifications</div>
+	<div class="grid grid-cols-3 border-t-2">
 	{#each specs as spec}
 		<Subtitles title={spec.title} subtitle={spec.value.toString()}/>
 	{/each}
+	</div>
 </div>
