@@ -12,7 +12,6 @@ export interface Car {
 	transmission: string;
 	consumption: number;
 	carbonEmission: number;
-	energyLabel: string;
 }
 
 export interface Dealer {
