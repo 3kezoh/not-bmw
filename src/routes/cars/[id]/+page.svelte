@@ -19,7 +19,7 @@
 		: [];
 </script>
 
-<div class="mt-16 lg:mt-24 grid grid-cols-2 gap-2 gap-y-20 p-10">
+<div class="mt-16 gap-2 gap-y-20 p-10 lg:mt-24 lg:grid lg:grid-cols-2">
 	{#if car}
 	<PrimaryDescription
 		model={car.model}

@@ -4,10 +4,10 @@
 </script>
 
 <div class="p-2 text-center">
-	<h3 class="font-semibold text-xl">{title}</h3>
+	<h3 class="text-base font-semibold lg:text-xl">{title}</h3>
 	{#if subtitle}
-		<div class="text-sm">{subtitle}</div>
+		<div class="text-xs lg:text-sm">{subtitle}</div>
     {:else}
-        <div class="text-sm">-</div>
+        <div class="text-xs lg:text-sm">-</div>
     {/if}
 </div>
