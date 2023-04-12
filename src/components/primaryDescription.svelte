@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { formatPrice } from "../utils/format";
 	import Subtitles from "./products/Subtitles.svelte";
 	import BmwIx from "./products/pictures/BmwIx.svelte";
 
@@ -22,7 +23,7 @@
 	</div>
 	
 	<div class="mt-5">
-			<div class="text-2xl font-bold">{price.toLocaleString( 'en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 } )}</div>
+			<div class="text-2xl font-bold">{formatPrice(price)}</div>
 			<div class="text-sm">Starting Price at {dealerName}</div>
 	</div>
 </div>

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { formatPrice } from "../../utils/format";
+
 	export let acceleration: number;
 	export let price: number;
 </script>
@@ -30,7 +32,7 @@
             </div>
 			<h2 class="flex flex-col items-center">
 					<h2 class="px-2 text-s text-gray-400">
-						${price}
+						{formatPrice(price)}
 					</h2>
 			</h2>
 		</div>
@@ -59,7 +61,7 @@
             </div>
 			<h2 class="flex flex-col items-center">
 					<h2 class="px-2 text-s text-gray-400">
-						${price} <!-- A changer -->
+						{formatPrice(price)}
 					</h2>
 			</h2>
 		</div>
