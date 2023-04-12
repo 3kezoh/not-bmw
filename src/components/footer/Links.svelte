@@ -4,7 +4,7 @@
 
 {#each links as link}
 	<li>
-		<button>
+		<button class="md:text-start">
 			{link}
 		</button>
 	</li>
