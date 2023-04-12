@@ -5,3 +5,5 @@ export const load = (() => ({
 	description:
 		"Explore models, build your own, and find local inventory from a nearby BMW Center. Experience the performance, luxury, and innovation of the Ultimate Driving Machine today."
 })) satisfies PageLoad;
+
+export const csr = false;
