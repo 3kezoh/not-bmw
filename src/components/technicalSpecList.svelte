@@ -4,7 +4,7 @@
 	export let specs: { title: string; value: number | string }[];
 </script>
 
-<div>
+<div class="col-span-2">
 	<div class="pb-2 text-center text-2xl font-bold">Technical Specifications</div>
 	<div class="grid grid-cols-2 lg:grid-cols-3 border-t-2">
 		{#each specs as spec}

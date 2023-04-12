@@ -18,7 +18,7 @@
 	];
 </script>
 
-<div class="mt-16 gap-2 gap-y-20 p-10 lg:mt-24 lg:grid lg:grid-cols-2">
+<div class="mt-16 p-10 lg:mt-24 lg:grid lg:grid-cols-2 gap-y-20 gap-x-10">
 	<PrimaryDescription
 		model={car.model}
 		drive={car.drive}
