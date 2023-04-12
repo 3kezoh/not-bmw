@@ -34,9 +34,9 @@
 			</ul>
 		</div>
 		<div class="flex text-xs lg:text-sm  gap-4 lg:gap-8 items-center justify-self-end">
-			<button class="group flex gap-1 hover:text-white">
+			<button class="group flex items-center gap-1 hover:text-white">
 				<svg
-					class="fill-chinese-silver group-hover:fill-white h-[11px] w-[6px] relative top-[1px] lg:h-3 lg:w-[7px] lg:top-[2px] drop-shadow-nav"
+					class="fill-chinese-silver group-hover:fill-white w-4 h-4 drop-shadow-nav"
 					viewBox="0 -0.384 3 5.756"
 				>
 					<path
@@ -45,9 +45,9 @@
 				</svg>
 				<span class="drop-shadow-nav">Choose your local BMW Center</span>
 			</button>
-			<button class="hidden group lg:flex gap-1 hover:text-white">
+			<button class="hidden group lg:flex items-center gap-2 hover:text-white">
 				<svg
-					class="fill-chinese-silver group-hover:fill-white h-[11px] relative top-[1px] lg:h-3 lg:top-[2px] drop-shadow-nav"
+					class="fill-chinese-silver group-hover:fill-white w-3 h-3 drop-shadow-nav"
 					viewBox="0 0 12 12"
 				>
 					<path
@@ -58,6 +58,7 @@
 			</button>
 			<button
 				class="group hidden lg:flex justify-center items-center rounded-full lg:w-9 lg:h-9 bg-raisin-black/80 hover:bg-white"
+				aria-label="Search"
 			>
 				<svg
 					class="fill-chinese-silver lg:h-3 group-hover:fill-raisin-black"
