@@ -10,15 +10,15 @@
 
 	const technicalSpecs = [
 		{ title: "Energy", value: car.energyEngine },
-		{ title: "Power", value: car.power },
-		{ title: "Acceleration", value: car.acceleration },
+		{ title: "Power", value: car.power + " ch" },
+		{ title: "Acceleration", value: car.acceleration + " sec" },
 		{ title: "Transmission", value: car.transmission },
-		{ title: "Consumption", value: car.consumption },
-		{ title: "Carbon Emission", value: car.carbonEmission }
+		{ title: "Consumption", value: car.consumption + " l/100km" },
+		{ title: "Carbon Emission", value: car.carbonEmission + " g/km" }
 	];
 </script>
 
-<div class="mt-16 p-10 lg:mt-24 lg:grid lg:grid-cols-2 gap-y-20 gap-x-10">
+<div class="mt-16 gap-y-20 gap-x-10 p-10 lg:mt-24 lg:grid lg:grid-cols-2">
 	<PrimaryDescription
 		model={car.model}
 		drive={car.drive}

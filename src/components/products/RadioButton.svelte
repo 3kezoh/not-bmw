@@ -8,14 +8,14 @@
 
 <div class="grid grid-rows-4 text-center">
 	<div class="grid grid-cols-3 items-end font-semibold">
-		<div></div>
+		<div />
 		<div>0-60 MPH</div>
 		<div>Price</div>
 	</div>
-	<Radio title="Standard" acceleration={acceleration} price={formatPrice(price)} />
-	<Radio title="Electric" acceleration={acceleration} price={formatPrice(price+10000)} />
+	<Radio title="Standard" {acceleration} price={formatPrice(price)} />
+	<Radio title="Electric" {acceleration} price={formatPrice(price + 10000)} />
 	<div class="flex justify-center">
-		<button class="h-fit bg-honolulu-blue text-white rounded-sm w-32 py-3 items-start">
+		<button class="h-fit w-32 items-start rounded-sm bg-honolulu-blue py-3 text-white">
 			Build your Own
 		</button>
 	</div>
