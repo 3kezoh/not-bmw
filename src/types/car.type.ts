@@ -4,7 +4,7 @@ export interface Car {
 	price: number;
 	year: number;
 	drive: string;
-    acceleration: number;
+	acceleration: number;
 	media: Media;
 	dealer: Dealer;
 	energyEngine: string;
@@ -20,12 +20,13 @@ export interface Dealer {
 }
 
 export interface Media {
-	video: Video;
+	video?: Video;
 	images: Images[];
 }
 
 export interface Video {
-	path: string;
+	fallback: string;
+	src: string;
 }
 
 export interface Images {
