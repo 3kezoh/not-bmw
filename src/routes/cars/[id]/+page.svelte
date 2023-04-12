@@ -33,7 +33,8 @@
 
 {#if car.media.video}
 	{#await import(`../../../components/products/videos/${car?.media.video}.svelte`) then value}
-		<div class="hidden p-24 lg:block">
+		<div class="hidden lg:block p-24 bg-black">
+			<h2 class="text-2xl text-white font-bold text-center">DISCOVER THE ELECTRIC THRILL</h2>
 			<svelte:component this={value.default} />
 		</div>
 	{/await}
