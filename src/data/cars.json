@@ -1,134 +1,123 @@
 [
-    {
-        "id": 1,
-        "model": "BMW IX",
-        "price": 78186,
-        "year": 2007,
-        "drive": "AWD",
-        "acceleration": 1.9,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Kling-Heller",
-            "address": "6336 Southridge Avenue"
-        },
-        "energyEngine": "Diesel",
-        "power": 264,
-        "transmission": "Automatic",
-        "consumption": 19.0,
-        "carbonEmission": 127
-    },
-    {
-        "id": 2,
-        "model": "Bronco",
-        "price": 177548,
-        "year": 1990,
-        "drive": "AWD",
-        "acceleration": 1.9,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/dddddd/000000"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Dickinson-McKenzie",
-            "address": "35 Sunfield Junction"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 199,
-        "transmission": "Manual",
-        "consumption": 1.7,
-        "carbonEmission": 190
-    },
-    {
-        "id": 3,
-        "model": "MR2",
-        "price": 107174,
-        "year": 2003,
-        "drive": "AWD",
-        "acceleration": 1.9,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffff12"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Murray Group",
-            "address": "839 Upham Place"
-        },
-        "energyEngine": "Flex-fuel",
-        "power": 176,
-        "transmission": "Manual",
-        "consumption": 1.6,
-        "carbonEmission": 192
-    },
-    {
-        "id": 4,
-        "model": "Escalade",
-        "price": 161968,
-        "year": 2010,
-        "drive": "AWD",
-        "acceleration": 1.9,
-        "media": {
-            "video": {
-                "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-            },
-            "images": [
-                {
-                    "path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-                },
-                {
-                    "path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-                }
-            ]
-        },
-        "dealer": {
-            "name": "Wunsch Inc",
-            "address": "83797 Russell Alley"
-        },
-        "energyEngine": "Diesel",
-        "power": 186,
-        "transmission": "Manual",
-        "consumption": 11.2,
-        "carbonEmission": 122
-    }
+	{
+		"id": 1,
+		"model": "BMW IX",
+		"price": 78186,
+		"year": 2007,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"video": "BmwIx",
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/dddddd/000000"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Kling-Heller",
+			"address": "6336 Southridge Avenue"
+		},
+		"energyEngine": "Diesel",
+		"power": 264,
+		"transmission": "Automatic",
+		"consumption": 19.0,
+		"carbonEmission": 127
+	},
+	{
+		"id": 2,
+		"model": "Bronco",
+		"price": 177548,
+		"year": 1990,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/dddddd/000000"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/dddddd/000000"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Dickinson-McKenzie",
+			"address": "35 Sunfield Junction"
+		},
+		"energyEngine": "Flex-fuel",
+		"power": 199,
+		"transmission": "Manual",
+		"consumption": 1.7,
+		"carbonEmission": 190
+	},
+	{
+		"id": 3,
+		"model": "MR2",
+		"price": 107174,
+		"year": 2003,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffff12"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Murray Group",
+			"address": "839 Upham Place"
+		},
+		"energyEngine": "Flex-fuel",
+		"power": 176,
+		"transmission": "Manual",
+		"consumption": 1.6,
+		"carbonEmission": 192
+	},
+	{
+		"id": 4,
+		"model": "Escalade",
+		"price": 161968,
+		"year": 2010,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Wunsch Inc",
+			"address": "83797 Russell Alley"
+		},
+		"energyEngine": "Diesel",
+		"power": 186,
+		"transmission": "Manual",
+		"consumption": 11.2,
+		"carbonEmission": 122
+	}
 ]
