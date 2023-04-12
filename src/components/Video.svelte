@@ -4,7 +4,7 @@
 </script>
 
 <!-- svelte-ignore a11y-media-has-caption -->
-<video controls preload="metadata" {...$$restProps}>
+<video controls preload="none" {...$$restProps}>
 	<source {src} type="video/webm" />
 	<source src={fallback} type="video/mp4" />
 	<p>
