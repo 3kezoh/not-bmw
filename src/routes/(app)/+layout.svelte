@@ -2,6 +2,7 @@
 	import "../../app.css";
 	import { page } from "$app/stores";
 	import Header from "../../components/Header.svelte";
+	import Footer from "../../components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -11,5 +12,8 @@
 
 <Header />
 <div class="snap-y snap-proximity h-d-screen overflow-y-scroll overscroll-y-none">
-	<slot />
+	<main>
+		<slot />
+	</main>
+	<Footer />
 </div>
