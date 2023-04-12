@@ -15,7 +15,7 @@
 	<h1 class="font-bold text-3xl">{model}</h1>
 	<BmwIx />
 	
-	<div class="grid grid-cols-3 border-t-2 border-b-2">
+	<div class="grid grid-cols-1 border-t-2 border-b-2 lg:grid-cols-3 lg:border-t-0">
 		<Subtitles title="{drive}" subtitle="Drivetrain" />
 		<Subtitles title="{transmission}" subtitle="Transmission" />
 		<Subtitles title="{acceleration} sec" subtitle="0-60 MPH" />
