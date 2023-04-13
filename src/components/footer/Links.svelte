@@ -4,8 +4,8 @@
 
 {#each links as link}
 	<li>
-		<button class="md:text-start">
+		<a href={"#"} class="md:text-start">
 			{link}
-		</button>
+		</a>
 	</li>
 {/each}

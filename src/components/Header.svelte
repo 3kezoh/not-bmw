@@ -17,24 +17,24 @@
 			</a>
 			<ul class="hidden lg:flex lg:gap-10 drop-shadow-nav">
 				<li>
-					<a class="hover:text-white" href="/">Models</a>
+					<a class="hover:text-white" href={"#"}>Models</a>
 				</li>
 				<li>
-					<a class="hover:text-white" href="/">Build Your Own</a>
+					<a class="hover:text-white" href={"#"}>Build Your Own</a>
 				</li>
 				<li>
-					<a class="hover:text-white" href="/">Shopping</a>
+					<a class="hover:text-white" href={"#"}>Shopping</a>
 				</li>
 				<li>
-					<a class="hover:text-white" href="/">BMW Electric</a>
+					<a class="hover:text-white" href={"#"}>BMW Electric</a>
 				</li>
 				<li>
-					<a class="hover:text-white" href="/">Owners</a>
+					<a class="hover:text-white" href={"#"}>Owners</a>
 				</li>
 			</ul>
 		</div>
 		<div class="flex text-xs lg:text-sm  gap-4 lg:gap-8 items-center justify-self-end">
-			<button class="group flex items-center gap-1 hover:text-white">
+			<a href={"#"} class="group flex items-center gap-1 hover:text-white">
 				<svg
 					class="fill-chinese-silver group-hover:fill-white w-4 h-4 drop-shadow-nav"
 					viewBox="0 -0.384 3 5.756"
@@ -44,8 +44,8 @@
 					/>
 				</svg>
 				<span class="drop-shadow-nav">Choose your local BMW Center</span>
-			</button>
-			<button class="hidden group lg:flex items-center gap-2 hover:text-white">
+			</a>
+			<a href={"#"} class="hidden group lg:flex items-center gap-2 hover:text-white">
 				<svg
 					class="fill-chinese-silver group-hover:fill-white w-3 h-3 drop-shadow-nav"
 					viewBox="0 0 12 12"
@@ -55,7 +55,7 @@
 					/>
 				</svg>
 				<span class="drop-shadow-nav">My BMW</span>
-			</button>
+			</a>
 			<button
 				class="group hidden lg:flex justify-center items-center rounded-full lg:w-9 lg:h-9 bg-raisin-black/80 hover:bg-white"
 				aria-label="Search"

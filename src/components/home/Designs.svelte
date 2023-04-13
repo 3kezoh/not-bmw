@@ -26,7 +26,7 @@
 			<BmwX5 />
 		</Design>
 	</div>
-	<button class="bg-raisin-black text-white font-bold py-3 px-8 w-fit text-sm"
+	<a href={"#"} class="bg-raisin-black text-white font-bold py-3 px-8 w-fit text-sm"
 		>Build Your Own
-	</button>
+	</a>
 </section>

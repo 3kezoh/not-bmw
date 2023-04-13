@@ -20,9 +20,9 @@
 	<div
 		class="text-sm grid content-center justify-center grid-flow-row gap-4 md:grid-flow-col md:absolute md:bottom-[10%] md:left-1/2 md:-translate-x-1/2"
 	>
-		<button class="h-fit bg-honolulu-blue text-white rounded-sm w-64 py-3">
+		<a href={"#"} class="inline-block text-center h-fit bg-honolulu-blue text-white rounded-sm w-64 py-3">
 			Build Yours
-		</button>
-		<button class="h-fit bg-raisin-black text-white rounded-sm w-64 py-3">Learn More</button>
+		</a>
+		<a href={"#"} class="inline-block text-center h-fit bg-raisin-black text-white rounded-sm w-64 py-3">Learn More</a>
 	</div>
 </article>

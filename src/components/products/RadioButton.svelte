@@ -15,8 +15,8 @@
 	<Radio title="Standard" {acceleration} price={formatPrice(price)} />
 	<Radio title="Electric" {acceleration} price={formatPrice(price + 10000)} />
 	<div class="flex justify-center">
-		<button class="h-fit w-32 items-start rounded-sm bg-honolulu-blue py-3 text-white">
+		<a href={"#"} class="h-fit w-32 items-start rounded-sm bg-honolulu-blue py-3 text-white">
 			Build your Own
-		</button>
+		</a>
 	</div>
 </div>
