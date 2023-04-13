@@ -31,7 +31,7 @@
 		<a
 			href={`/${generateSlug(model)}`}
 			class="inline-block text-center h-fit bg-raisin-black text-white rounded-sm w-64 py-3"
-			>Learn More</a
+			aria-label={`Learn more about the BMW ${model}`}>Learn More</a
 		>
 	</div>
 </article>
