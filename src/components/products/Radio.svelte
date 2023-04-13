@@ -4,7 +4,7 @@
 	export let price: string;
 </script>
 
-<div class="my-5 grid grid-cols-3 items-center rounded-xl border p-2 shadow-md">
+<div class="my-3 md:my-5 grid grid-cols-3 items-center rounded-xl border px-2 py-3 shadow-md">
 	<div class="grid grid-cols-2 items-center">
 		<svg class="h-5 w-5 text-gray-400 sm:h-9 sm:w-9" viewBox="0 0 20 20" fill="currentColor">
 			<path
