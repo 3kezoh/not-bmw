@@ -1,13 +1,13 @@
-import type { PageLoad } from "./$types";
 import { error } from "@sveltejs/kit";
-import cars from "../../../data/cars.json";
+import cars from "../../data/cars.json";
 import type { PageLoad } from "./$types";
+import { generateSlug } from "../../utils/format";
 
 export const load = (({ params }) => {
-	const car = cars.find((car) => car.id === parseInt(params.id));
+	const car = cars.find((car) => generateSlug(car.model) === generateSlug(params.slug));
 
 	if (!car) {
-		throw error(404, "Car not found");
+		throw error(404, "Not found");
 	}
 
 	return {

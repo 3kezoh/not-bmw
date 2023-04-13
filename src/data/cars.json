@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"model": "BMW IX",
+		"model": "iX",
 		"price": 78186,
 		"year": 2007,
 		"drive": "AWD",
@@ -32,7 +32,7 @@
 	},
 	{
 		"id": 2,
-		"model": "Bronco",
+		"model": "XM",
 		"price": 177548,
 		"year": 1990,
 		"drive": "AWD",
@@ -62,7 +62,7 @@
 	},
 	{
 		"id": 3,
-		"model": "MR2",
+		"model": "X7",
 		"price": 107174,
 		"year": 2003,
 		"drive": "AWD",
@@ -92,7 +92,127 @@
 	},
 	{
 		"id": 4,
-		"model": "Escalade",
+		"model": "Z4",
+		"price": 161968,
+		"year": 2010,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Wunsch Inc",
+			"address": "83797 Russell Alley"
+		},
+		"energyEngine": "Diesel",
+		"power": 186,
+		"transmission": "Manual",
+		"consumption": 11.2,
+		"carbonEmission": 122
+	},
+	{
+		"id": 5,
+		"model": "3 Series Sedan",
+		"price": 161968,
+		"year": 2010,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Wunsch Inc",
+			"address": "83797 Russell Alley"
+		},
+		"energyEngine": "Diesel",
+		"power": 186,
+		"transmission": "Manual",
+		"consumption": 11.2,
+		"carbonEmission": 122
+	},
+	{
+		"id": 6,
+		"model": "X3",
+		"price": 161968,
+		"year": 2010,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Wunsch Inc",
+			"address": "83797 Russell Alley"
+		},
+		"energyEngine": "Diesel",
+		"power": 186,
+		"transmission": "Manual",
+		"consumption": 11.2,
+		"carbonEmission": 122
+	},
+	{
+		"id": 7,
+		"model": "5 Series Sedan",
+		"price": 161968,
+		"year": 2010,
+		"drive": "AWD",
+		"acceleration": 1.9,
+		"media": {
+			"images": [
+				{
+					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
+				},
+				{
+					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
+				}
+			]
+		},
+		"dealer": {
+			"name": "Wunsch Inc",
+			"address": "83797 Russell Alley"
+		},
+		"energyEngine": "Diesel",
+		"power": 186,
+		"transmission": "Manual",
+		"consumption": 11.2,
+		"carbonEmission": 122
+	},
+	{
+		"id": 8,
+		"model": "X5",
 		"price": 161968,
 		"year": 2010,
 		"drive": "AWD",

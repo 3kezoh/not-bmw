@@ -1,7 +1,7 @@
 <script lang="ts">
-	import PrimaryDescription from "../../../components/primaryDescription.svelte";
-	import TechnicalSpecList from "../../../components/technicalSpecList.svelte";
-	import RadioButton from "../../../components/products/RadioButton.svelte";
+	import PrimaryDescription from "../../components/primaryDescription.svelte";
+	import TechnicalSpecList from "../../components/technicalSpecList.svelte";
+	import RadioButton from "../../components/products/RadioButton.svelte";
 	import type { PageData } from "./$types";
 
 	export let data: PageData;

@@ -29,9 +29,7 @@
 	<ul class="flex gap-9">
 		{#each models as model}
 			<li>
-				<button>
-					{model}
-				</button>
+				<a href={"#"}>{model}</a>
 			</li>
 		{/each}
 	</ul>
