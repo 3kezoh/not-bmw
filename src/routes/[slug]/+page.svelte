@@ -6,7 +6,7 @@
 
 	export let data: PageData;
 
-	const { car, video } = data;
+	const { car, video, image } = data;
 
 	const technicalSpecs = [
 		{ title: "Energy", value: car.energyEngine },
@@ -26,14 +26,15 @@
 		transmission={car.transmission}
 		price={car.price}
 		dealerName={car.dealer.name}
+		{image}
 	/>
 	<RadioButton acceleration={car.acceleration} price={car.price} />
 	<TechnicalSpecList specs={technicalSpecs} />
 </div>
 
 {#if video}
-	<div class="hidden lg:block p-24 bg-black">
-		<h2 class="text-2xl text-white font-bold text-center">DISCOVER THE ELECTRIC THRILL</h2>
+	<div class="hidden bg-black p-24 lg:block">
+		<h2 class="text-center text-2xl font-bold text-white">DISCOVER THE ELECTRIC THRILL</h2>
 		<svelte:component this={video} />
 	</div>
 {/if}

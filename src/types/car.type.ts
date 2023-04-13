@@ -21,7 +21,7 @@ export interface Dealer {
 
 export interface Media {
 	video?: Video;
-	images: Images[];
+	image: Image;
 }
 
 export interface Video {
@@ -29,6 +29,6 @@ export interface Video {
 	src: string;
 }
 
-export interface Images {
-	path: string;
+export interface Image {
+	src: string;
 }
