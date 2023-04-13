@@ -8,17 +8,7 @@
 		"acceleration": 1.9,
 		"media": {
 			"video": "BmwIx",
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/dddddd/000000"
-				}
-			]
+			"image": "BmwIx"
 		},
 		"dealer": {
 			"name": "Kling-Heller",
@@ -38,17 +28,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/dddddd/000000"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/dddddd/000000"
-				}
-			]
+			"image": "BmwXm"
 		},
 		"dealer": {
 			"name": "Dickinson-McKenzie",
@@ -68,17 +48,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffff12"
-				}
-			]
+			"image": "BmwX7"
 		},
 		"dealer": {
 			"name": "Murray Group",
@@ -98,17 +68,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-				}
-			]
+			"image": "BmwZ4"
 		},
 		"dealer": {
 			"name": "Wunsch Inc",
@@ -128,17 +88,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-				}
-			]
+			"image": "Bmw3SSedan"
 		},
 		"dealer": {
 			"name": "Wunsch Inc",
@@ -158,17 +108,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-				}
-			]
+			"image": "BmwX3"
 		},
 		"dealer": {
 			"name": "Wunsch Inc",
@@ -188,17 +128,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-				}
-			]
+			"image": "Bmw5SSedan"
 		},
 		"dealer": {
 			"name": "Wunsch Inc",
@@ -218,17 +148,7 @@
 		"drive": "AWD",
 		"acceleration": 1.9,
 		"media": {
-			"images": [
-				{
-					"path": "http://dummyimage.com/400x250.png/5fa2dd/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/cc0000/ffffff"
-				},
-				{
-					"path": "http://dummyimage.com/400x250.png/ff4444/ffffff"
-				}
-			]
+			"image": "BmwX5"
 		},
 		"dealer": {
 			"name": "Wunsch Inc",
