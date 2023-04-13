@@ -4,7 +4,7 @@
 </script>
 
 <div class="p-2 text-center">
-	<h3 class="text-base font-semibold lg:text-xl">{title}</h3>
+	<span class="text-base font-semibold lg:text-xl">{title}</span>
 	{#if subtitle}
 		<div class="text-xs lg:text-sm">{subtitle}</div>
     {:else}
