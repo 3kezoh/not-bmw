@@ -29,9 +29,9 @@
 			Build Yours
 		</a>
 		<a
-			href={`/${generateSlug(model)}`}
+			href={"#"}
 			class="inline-block text-center h-fit bg-raisin-black text-white rounded-sm w-64 py-3"
-			aria-label={`Learn more about the BMW ${model}`}>Learn More</a
+			>Learn More</a
 		>
 	</div>
 </article>
